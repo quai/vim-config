@@ -1,12 +1,16 @@
 
-" set powerline font. Maybe I should install it? first ;)"
+" set powerline font. Maybe I should install it? first ;)
 " let g:airline_powerline_fonts=1
 
-" Let X and the terminal control the mouse. "
+" Let X and the terminal control the mouse.
 set mouse=
 
 " Enable vertical marker too
 set cursorcolumn
-set cursorline
 
+" Tab handling
+set shiftwidth=4                " Use indents of 2 spaces
+set tabstop=4                   " An indentation every two columns
+set softtabstop=4               " Let backspace delete indent
 set background=dark
+
