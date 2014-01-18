@@ -1,0 +1,12 @@
+
+" set powerline font. Maybe I should install it? first ;)"
+" let g:airline_powerline_fonts=1
+
+" Let X and the terminal control the mouse. "
+set mouse=
+
+" Enable vertical marker too
+set cursorcolumn
+set cursorline
+
+set background=dark
